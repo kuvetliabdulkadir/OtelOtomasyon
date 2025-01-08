@@ -1,0 +1,203 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{C4DBF372-88DB-4423-85BB-32354A511098}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>otel_otomasyon</RootNamespace>
+    <AssemblyName>otel_otomasyon</AssemblyName>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="MySql.Data, Version=9.1.0.0, Culture=neutral, PublicKeyToken=c5687fc88969c44d, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\..\..\..\..\Program Files (x86)\MySQL\MySQL Connector NET 9.1\MySql.Data.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="business_layer\AdminBLL.cs" />
+    <Compile Include="business_layer\CustomerBLL.cs" />
+    <Compile Include="business_layer\PaymentsBLL.cs" />
+    <Compile Include="business_layer\ReservationBLL.cs" />
+    <Compile Include="business_layer\RoomBLL.cs" />
+    <Compile Include="dataaccess_layer\AdminDAL.cs" />
+    <Compile Include="dataaccess_layer\CustomerDAL.cs" />
+    <Compile Include="dataaccess_layer\myconnection.cs" />
+    <Compile Include="dataaccess_layer\PaymentsDAL.cs" />
+    <Compile Include="dataaccess_layer\ReservationDAL.cs" />
+    <Compile Include="dataaccess_layer\RoomDAl.cs" />
+    <Compile Include="entity_layer\Admins.cs" />
+    <Compile Include="entity_layer\Customers.cs" />
+    <Compile Include="entity_layer\Payments.cs" />
+    <Compile Include="entity_layer\Reservations.cs" />
+    <Compile Include="entity_layer\Rooms.cs" />
+    <Compile Include="presentation_layer\fatura_yonetimi_form.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="presentation_layer\fatura_yonetimi_form.Designer.cs">
+      <DependentUpon>fatura_yonetimi_form.cs</DependentUpon>
+    </Compile>
+    <Compile Include="presentation_layer\musteri_duzenle_form.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="presentation_layer\musteri_duzenle_form.Designer.cs">
+      <DependentUpon>musteri_duzenle_form.cs</DependentUpon>
+    </Compile>
+    <Compile Include="presentation_layer\musteri_rezervasyon_form.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="presentation_layer\musteri_rezervasyon_form.Designer.cs">
+      <DependentUpon>musteri_rezervasyon_form.cs</DependentUpon>
+    </Compile>
+    <Compile Include="presentation_layer\musteri_yonetimi_form.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="presentation_layer\musteri_yonetimi_form.Designer.cs">
+      <DependentUpon>musteri_yonetimi_form.cs</DependentUpon>
+    </Compile>
+    <Compile Include="presentation_layer\oda_duzenle_form.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="presentation_layer\oda_duzenle_form.Designer.cs">
+      <DependentUpon>oda_duzenle_form.cs</DependentUpon>
+    </Compile>
+    <Compile Include="presentation_layer\oda_yonetimi_form.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="presentation_layer\oda_yonetimi_form.Designer.cs">
+      <DependentUpon>oda_yonetimi_form.cs</DependentUpon>
+    </Compile>
+    <Compile Include="presentation_layer\otel_giris_form.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="presentation_layer\otel_giris_form.Designer.cs">
+      <DependentUpon>otel_giris_form.cs</DependentUpon>
+    </Compile>
+    <Compile Include="presentation_layer\rezervasyon_islemleri_form.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="presentation_layer\rezervasyon_islemleri_form.Designer.cs">
+      <DependentUpon>rezervasyon_islemleri_form.cs</DependentUpon>
+    </Compile>
+    <Compile Include="presentation_layer\rezervasyon_yonetimi.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="presentation_layer\rezervasyon_yonetimi.Designer.cs">
+      <DependentUpon>rezervasyon_yonetimi.cs</DependentUpon>
+    </Compile>
+    <Compile Include="presentation_layer\yoneticigirisform.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="presentation_layer\yoneticigirisform.Designer.cs">
+      <DependentUpon>yoneticigirisform.cs</DependentUpon>
+    </Compile>
+    <Compile Include="presentation_layer\yonetici_islemleri_form.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="presentation_layer\yonetici_islemleri_form.Designer.cs">
+      <DependentUpon>yonetici_islemleri_form.cs</DependentUpon>
+    </Compile>
+    <Compile Include="presentation_layer\yonetici_kayıt_form.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="presentation_layer\yonetici_kayıt_form.Designer.cs">
+      <DependentUpon>yonetici_kayıt_form.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="presentation_layer\fatura_yonetimi_form.resx">
+      <DependentUpon>fatura_yonetimi_form.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="presentation_layer\musteri_duzenle_form.resx">
+      <DependentUpon>musteri_duzenle_form.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="presentation_layer\musteri_rezervasyon_form.resx">
+      <DependentUpon>musteri_rezervasyon_form.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="presentation_layer\musteri_yonetimi_form.resx">
+      <DependentUpon>musteri_yonetimi_form.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="presentation_layer\oda_duzenle_form.resx">
+      <DependentUpon>oda_duzenle_form.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="presentation_layer\oda_yonetimi_form.resx">
+      <DependentUpon>oda_yonetimi_form.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="presentation_layer\otel_giris_form.resx">
+      <DependentUpon>otel_giris_form.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="presentation_layer\rezervasyon_islemleri_form.resx">
+      <DependentUpon>rezervasyon_islemleri_form.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="presentation_layer\rezervasyon_yonetimi.resx">
+      <DependentUpon>rezervasyon_yonetimi.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="presentation_layer\yoneticigirisform.resx">
+      <DependentUpon>yoneticigirisform.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="presentation_layer\yonetici_islemleri_form.resx">
+      <DependentUpon>yonetici_islemleri_form.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="presentation_layer\yonetici_kayıt_form.resx">
+      <DependentUpon>yonetici_kayıt_form.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup />
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>
