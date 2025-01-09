@@ -148,7 +148,7 @@ namespace otel_otomasyon.presentation_layer
                     CustomerID = _selectedCustomerID,
                     paymentTime = DateTime.Now,
                     totalPrice = Convert.ToDecimal(odaUygunDataGridView.SelectedRows[0].Cells["DailyPay"].Value) *
-                         Math.Max((checkOutDatePicker.Value - checkInDatePicker.Value).Days, 1),
+                         Math.Max((checkOutDatePicker.Value - checkInDatePicker.Value).Days+1, 1),
                     ReservationID = reservationID  
                 };
 
