@@ -31,6 +31,10 @@ Sistemin işlevselliğini açıklamak için kullanılır. Use Case Diyagramlar d
 - Giriş Ekranı
 ![otelgiris](https://github.com/user-attachments/assets/b16d031d-3b01-4c09-8482-815e52cfce42)
 
+- Yönetici Giriş Ekranı
+- ![yoneticigiris](https://github.com/user-attachments/assets/080c949d-55d7-43b7-9cb2-aec9e0612c80)
+
+
 
 
 
