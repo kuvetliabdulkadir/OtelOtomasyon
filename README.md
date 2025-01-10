@@ -1,12 +1,21 @@
  #  ----   Otel Otomasyon ve Yönetim Sistemi
-## -Proje Tanıtımı
+##  Proje Tanıtımı
 Bu proje, bir otel rezervasyon ve yönetim sistemi geliştirmek amacıyla Windows Forms kullanılarak hazırlanmıştır. Proje, nesne yönelimli programlama prensipleri ve  n katmanlı mimari yapısı üzerine inşa edilmiştir. Sistemin temel işlevleri, rezervasyon yönetimi, oda yönetimi, müşteri yönetimi ve fatura takibini kapsamaktadır.Veritabanı olarak MySQL, dil ve platform olarak C# Form App kullanılmıştır.
+
+
+## Proje Mimarisi
+- Entity Layer
+- DataAccess Layer
+- Presentation Layer
+- Business Logic Layer
+
 
  ## Diyagramlar
  ### -Class Diyagramı
-Class Diyagraminda oluşturulan sınıflar arası ilişkiler ve kullanılan metotlar gösterilmiştir. Yönetici (Admin) ile diğer sınıflar arasındaki ilişki Aggregaiton (zorunlu olmayan), Oda (Room) - Rezervasyon (Reservation) arasındaki ilişki composotion (zorunlu), Reservasyon (Resevation) - Fatura (Payment) arasındaki ilişki composition (zorunlu), diğerleri aralarındaki ilişki ise 'aggregation'dır.
+Class Diyagraminda oluşturulan sınıflar arası ilişkiler ve kullanılan metotlar gösterilmiştir. Yönetici (Admin) ile diğer sınıflar arasındaki ilişki Aggregaiton (zorunlu olmayan) Reservasyon (Resevation) - Fatura (Payment) arasındaki ilişki composition (zorunlu), diğer sınıfların aralarındaki ilişki ise 'aggregation'dır.
 
- ![Classdiyagrami](https://github.com/user-attachments/assets/f24cb698-1bed-4519-9bdb-f8729f4112eb)
+![Classdiyagrami](https://github.com/user-attachments/assets/7c2ec3ee-d83e-42ea-9dbd-b1c01a4b4180)
+
 
 ### -ER Diyagramı
 Rezervasyon (Reservation)  - Oda(Room) bire bir, Fatura (Payment) - Müşteri (Customer) bire bir, Müşteri (Customer) - Rezervasyon (Reservation) birden çoğa, Rezervasyon (Reservation) - Fatura (Payment) bire bir bunların Yönetici (Admin) ile ilişkileri birden çoğadır. 
@@ -15,6 +24,13 @@ FK (Foreign Key): Bir tanloda benzersiz kayıt oluşturmayı sağlayan sütunun 
 ![ERdiyagrami](https://github.com/user-attachments/assets/880c4b3c-d956-41c3-a205-a14f7dcc7ae3)
 
 ### -Use-Case Diyagramı
-Use Case Diyagramlar, tüm işlevselliği göstermek için kullanılır.
-![UseCasediyagrami](https://github.com/user-attachments/assets/20ca06dd-8dfe-430c-95a7-950b7dca16fd)
+Sistemin işlevselliğini açıklamak için kullanılır. Use Case Diyagramlar detayları göstermekten ziyade tüm işlevselliği göstermek için kullanılır.
+![UseCasediyagrami](https://github.com/user-attachments/assets/3ad1a182-8d73-4732-8fd7-1f457cb5ecca)
+
+## Proje Görselleri
+- Giriş Ekranı
+![otelgiris](https://github.com/user-attachments/assets/b16d031d-3b01-4c09-8482-815e52cfce42)
+
+
+
 
