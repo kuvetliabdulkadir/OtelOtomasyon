@@ -29,10 +29,53 @@ Sistemin işlevselliğini açıklamak için kullanılır. Use Case Diyagramlar d
 
 ## Proje Görselleri
 - Giriş Ekranı
-![otelgiris](https://github.com/user-attachments/assets/b16d031d-3b01-4c09-8482-815e52cfce42)
++ ![otelgiris](https://github.com/user-attachments/assets/b16d031d-3b01-4c09-8482-815e52cfce42)
 
 - Yönetici Giriş Ekranı
-- ![yoneticigiris](https://github.com/user-attachments/assets/080c949d-55d7-43b7-9cb2-aec9e0612c80)
++ ![yoneticigiris](https://github.com/user-attachments/assets/080c949d-55d7-43b7-9cb2-aec9e0612c80)
+
+- Yönetici İşlem Ekranı
++ ![yoneticiilemleri](https://github.com/user-attachments/assets/3ef420f6-efdf-41e7-86eb-fdbac2bf0046)
+
+- Yönetici Kayıt Ekranı
++ ![yoneticikayit](https://github.com/user-attachments/assets/a4877ca9-b8d3-4056-a31e-c4308c809f48)
+  
+- Oda Yönetim Ekranı
++ ![odayonetimi](https://github.com/user-attachments/assets/6d573fa4-ebe9-4fe9-b44f-3aecf7dfdb51)
+
+- Mevcut Oda Bilgilerini Düzenleme Ekranı
++ ![odabilgileriniduzenle](https://github.com/user-attachments/assets/566e8f39-7821-4a3d-99b8-d82bbf171e45)
+
+- Müşteri Yönetim Ekranı
++ ![musteriyonetimi](https://github.com/user-attachments/assets/4e0a504a-72e9-4bc1-a050-7f2d3f513fcd)
+
+- Mevcut Müşteri Bilgileirni Düzenleme Ekranı
++ ![musteribilgileriniduzenle](https://github.com/user-attachments/assets/b68a9d0c-385c-4925-97a7-85e1e3807a69)
+
+- Müşterinin Oluşturulan Rezervasyonlarını Görüntüleme Ekranı
++ ![musterininrezervasyonları](https://github.com/user-attachments/assets/06709495-ce66-444b-a45b-f51d4f89a6a9)
+
+- Rezervasyon Yönetim Ekranı
++ ![rezervasyonyonetimi](https://github.com/user-attachments/assets/8bf3a3ce-eac3-400e-b808-15507ec5370d)
+
+- Rezervasyon Oluşturma Ekranı
++ buraya resim gelicek
+
+- Fatura Yönetim Ekranı
++ ![faturayonetimi](https://github.com/user-attachments/assets/b43679cb-fb93-4290-a7ad-0b3a5d7e5f6b)
+
+- Fatura DEtayları Görüntüleme Ekranı
++ ![faturadetayları](https://github.com/user-attachments/assets/26206098-8ed0-4ada-96c4-d3f07d885377)
+
+
+
+
+
+
+
+
+
+
 
 
 
