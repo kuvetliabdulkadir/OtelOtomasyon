@@ -59,7 +59,8 @@ Sistemin işlevselliğini açıklamak için kullanılır. Use Case Diyagramlar d
 + ![rezervasyonyonetimi](https://github.com/user-attachments/assets/8bf3a3ce-eac3-400e-b808-15507ec5370d)
 
 - Rezervasyon Oluşturma Ekranı
-+ buraya resim gelicek
++ ![rezervasyonolustur](https://github.com/user-attachments/assets/968597d9-240a-4338-8175-2c0c9bc7946b)
+
 
 - Fatura Yönetim Ekranı
 + ![faturayonetimi](https://github.com/user-attachments/assets/b43679cb-fb93-4290-a7ad-0b3a5d7e5f6b)
