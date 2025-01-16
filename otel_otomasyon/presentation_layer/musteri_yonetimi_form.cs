@@ -220,17 +220,15 @@ namespace otel_otomasyon.presentation_layer
         {
             try
             {
-                // Seçili satırı kontrol et
+               
                 if (mstrDataGridView.SelectedRows.Count == 0)
                 {
                     MessageBox.Show("Lütfen bir müşteri seçiniz!", "Uyarı", MessageBoxButtons.OK, MessageBoxIcon.Warning);
                     return;
                 }
 
-                // Seçilen müşteri ID'sini al
                 int selectedCustomerID = Convert.ToInt32(mstrDataGridView.SelectedRows[0].Cells["CustomerID"].Value);
 
-                // Yeni rezervasyon formunu aç
                 musteri_rezervasyon_form rezervasyonlarForm = new musteri_rezervasyon_form(selectedCustomerID);
                 rezervasyonlarForm.Show();
                 this.Hide();
