@@ -23,7 +23,8 @@ Rezervasyon (Reservation)  - Oda(Room) bire bir, Fatura (Payment) - Müşteri (C
 PK (Primary Key): Oluşturulan tabloda veri sıraları benzersiz olmasılıdır.
 FK (Foreign Key): Bir tanloda benzersiz kayıt oluşturmayı sağlayan sütunun başka bir tabloda bulunmasıdır.
 #
-![ERdiyagrami](https://github.com/user-attachments/assets/880c4b3c-d956-41c3-a205-a14f7dcc7ae3)
+![ERdiyagrami](https://github.com/user-attachments/assets/3bdfa2bf-d0fe-46ee-be3a-48915312470b)
+
 
 ### Use-Case Diyagramı
 Sistemin işlevselliğini açıklamak için kullanılır. Use Case Diyagramlar detayları göstermekten ziyade tüm işlevselliği göstermek için kullanılır.
