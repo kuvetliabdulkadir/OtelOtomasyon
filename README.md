@@ -107,7 +107,7 @@ Sistemin işlevselliğini açıklamak için kullanılır. Use Case Diyagramlar d
 |  ![faturadetayları](https://github.com/user-attachments/assets/26206098-8ed0-4ada-96c4-d3f07d885377) |
 
 - Projenin genel yapısı ve işlevi bu şekildedir. Projenin videolu anlatımına linkten ulaşabilirsiniz.
-- # LİNK
+- # [YouTube Videosunu İzle](https://youtu.be/_DnFClCayNM?si=DpQjQ4mxwsf9brEO)
 
 
 
